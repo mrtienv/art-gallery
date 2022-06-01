@@ -1,0 +1,9 @@
+@media #{$lg} {
+  footer{
+    .nav.row-cols-2{
+      > li {
+        margin-top: 0;
+      }
+    }
+  }
+}

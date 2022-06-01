@@ -1,0 +1,7 @@
+@media #{$lg} {
+  @each $font in $fonts{
+    .fs-lg-#{$font}{
+      font-size: $font * 1px;
+    }
+  }
+}

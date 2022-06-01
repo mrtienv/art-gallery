@@ -1,0 +1,28 @@
+body {
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 15px;
+    background: #ffffff;
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.tika-border {
+    border: 1px solid #ccc;
+}
+
+.item-hover:hover {
+    color: #000000 !important;
+    background-color: #ccc;
+}

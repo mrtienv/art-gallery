@@ -1,0 +1,14 @@
+@function getColor($color, $nth) {
+  @return nth(map-get($colors, $color), $nth);
+}
+
+$lg: "screen and (min-width: 992px)";
+$mobi: "screen and (max-width: 991px)";
+$fonts: (15, 18, 24, 30);
+$colors: (
+        white: (#ffffff),
+        grey: (#F1F1F1),
+        red: (#E91E63),
+        black: (#000),
+        blue: (#616161)
+);
